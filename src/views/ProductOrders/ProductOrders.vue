@@ -17,7 +17,7 @@
 <script lang="ts">
 import Vue from 'vue';
 
-import { ordersApi } from '@/api/orders-api';
+import { ordersApi } from '@/api/orders/orders-api';
 import { Order } from '@/models/order';
 
 import VOrdersTable from './ui/OrdersTable.vue';

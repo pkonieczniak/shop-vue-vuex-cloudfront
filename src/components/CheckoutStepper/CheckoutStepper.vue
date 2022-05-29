@@ -65,7 +65,7 @@
 <script lang="ts">
 import Vue, { PropType } from 'vue';
 
-import { ordersApi } from '@/api/orders-api';
+import { ordersApi } from '@/api/orders/orders-api';
 import { CartItem } from '@/models/cart-item';
 
 import VReviewYourCartStep from './ui/ReviewYourCartStep.vue';

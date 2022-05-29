@@ -48,7 +48,7 @@
 <script lang="ts">
 import Vue from 'vue';
 
-import { productApi } from '@/api/product-api';
+import { productApi } from '@/api/products/product-api';
 import { Product } from '@/models/product';
 
 import VProductForm from './ui/ProductForm.vue';

@@ -14,11 +14,6 @@ const messages = {
 	zh,
 };
 
-const availableLangs = [Locale.RU, Locale.EN, Locale.ZH];
+const availableLangs = [Locale.EN];
 
-export {
-	availableLangs,
-	messages,
-	//
-	Locale,
-};
+export { availableLangs, messages, Locale };
