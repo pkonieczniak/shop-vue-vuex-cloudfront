@@ -1,36 +1,12 @@
-# shop-vue-vuex-cloudfront
+# DEMO - Cloudfront distribution
 
-See `develop` branch for development
+- https://d3sfraeyne8cxo.cloudfront.net/
 
-## Project setup
-```
-npm install
-```
+# Setup
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Change the service and bucketName properties in `serverless.yml` for your own.
+2. Setup project with `npm run cloudfront:setup` command.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Deploying changes and cache invalidation
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Run `npm run cloudfront:build:deploy:nc` command

@@ -46,8 +46,8 @@ import { ORDER_STATUS, Order } from '@/models/order';
 import { CartItem } from '@/models/cart-item';
 import { Product } from '@/models/product';
 
-import { ordersApi } from '@/api/orders-api';
-import { productApi } from '@/api/product-api';
+import { ordersApi } from '@/api/orders/orders-api';
+import { productApi } from '@/api/products/product-api';
 
 import VOrderDetails from '@/components/CheckoutStepper/ui/OrderDetails.vue';
 
